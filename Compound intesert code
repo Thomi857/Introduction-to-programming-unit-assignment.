@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+    int p, t;
+    float r, ci;
+
+    printf("Enter principal amaount: \n");
+    scanf("%d", &r);
+
+    printf("Enter the rate of interest: \n");
+    scanf("%d", &r);
+
+    printf("Enter the time period: \n");
+    scanf("%d", &t);
+
+    ci=p * pow( (1 + r /d 100), t);
+
+    printf("Your compound interest: %f\n", ci);
+
+    return 0;
+}
